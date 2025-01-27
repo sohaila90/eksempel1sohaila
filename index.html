@@ -1,1 +1,22 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endre Bakgrunnsfarge til Rosa</title>
+</head>
+<body>
+    <button onclick="endreBakgrunnsfarge()">Klikk for å endre bakgrunnsfarge til rosa</button>
+
+    <div id="innhold" style="width: 100%; height: 200px; margin-top: 20px;">
+        Dette er innholdet som får rosa bakgrunn når du klikker på knappen.
+    </div>
+
+    <script>
+        function endreBakgrunnsfarge() {
+            // Velger elementet med ID "innhold" og setter bakgrunnsfargen til rosa
+            document.getElementById("innhold").style.backgroundColor = "pink";
+        }
+    </script>
+</body>
+</html>
